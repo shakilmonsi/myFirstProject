@@ -1,73 +1,90 @@
-*{
-        margin: 0;
-        padding: 0;
+.max-width {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .custom-search-input {
+    width: 700px;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 33%;
+  }
+  .filter-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25%;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50%;
+    padding: 2px;
+  }
+  .filter-icon:hover {
+    background-color: rgb(187, 185, 185);
+    cursor: pointer;
+  }
+  .scan-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 28%;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50%;
+    padding: 2px;
+  }
+  .scan-icon:hover {
+    background-color: rgb(187, 185, 185);
+    cursor: pointer;
+  }
+
+  .form-control-with-icon {
+    padding-left: 30px;
+  }
+
+  .toggle-position {
+    left: 70px;
+    top: 50px;
+    background-color: rgb(185, 182, 182);
+    color: white;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .card button{
+    width: 60px;
+    font-size: small;
+  }
+  .justify-between{
+    
+    justify-content: space-between;
+  }
+
+  .star-rating {
+        width: 10%; 
     }
-    body{
-        background-color: royalblue;
-        font-family: 'Poppins', sans-serif;
+  .grid_colams{
+    grid-template-columns: repeat(9, 1fr);
+  }
+  
+
+  @media (max-width: 768px) {
+    .custom-search-input {
+      width: 150px;
     }
-    main{
-        width: 100%;
-        max-width: 90%;
-        margin: 0 auto;
+  }
+  @media (max-width: 576px) {
+    .custom-search-input {
+      width: 80px;
     }
-    section{
-        background-color: white;
-        padding: 1em;
-        margin: 1em;
-        border-radius: 10px;
-    }
-    .section-title{
-        color: violet;
-    }
-    /* gap players  */
-    .top-players, .blogs, .courses{
-        display: grid;
-        grid-gap:auto;
-     
-        place-items: center;
-    }
-    .top-players, .courses{
-       
-        grid-template-columns: repeat(9, 1fr);
-    }
-    .blogs{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .player, .blog{
-        display: flex;
-        align-items: center;
-    }
-    /* .player img{
-        height: 60px;
-        width: 120px;
-        margin-right: 20px;
-    } */
-    /* .thumbnail img{
-        width: 200px;
-        margin-right: 20px;
-    } */
-    .filled{
-        color:goldenrod;
-        font-size: 0.8em;
-    }
-    .unfilled{
-        color: lightgray;
-        font-size: 0.8em;
-    }
-    @media (max-width:992px){
-        .top-players, .courses{
-            grid-template-columns: repeat(3, 1fr);
-        }
-        .blogs{
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
-    @media (max-width:668px){
-        .top-players, .courses{
-            grid-template-columns: repeat(2, 1fr);
-        }
-        .blog{
-            display: block;
-        }
-    }
+  }
