@@ -3,10 +3,12 @@ import Services from '../../Shared/services/Services';
 import FollowedProducts from '../../Shared/FollowedProducts/FollowedProducts';
 import TrendingDealsInElectronics from './TrendingDealsInElectronics/TrendingDealsInElectronics';
 import Heros from './Heror/Heros';
-import TrustedBrand from './TrustedBrand/TrustedBrand';
 import BesnessPattner from './besnesspattner/BesnessPattner';
 import ExploreOurTopHomBusiness from './ExploreOurTopHomeBusiness/ExploreOurTopHomBusiness';
 import TopDealsOfheWeek from './TopDealsOfheWeek/TopDealsOfheWeek';
+import Servicses from './services/Servicses';
+import Catagrytrowelproducts from './shercomponent/catagrytrowelproducts/Catagrytrowelproducts';
+import Trustedsmss from './TrustedBrand/TrustedBrandss/TrustedBrandss';
 
 const Home = () => {
     return (
@@ -17,9 +19,13 @@ const Home = () => {
 
        <Services></Services>
        <FollowedProducts></FollowedProducts>
+       <Catagrytrowelproducts></Catagrytrowelproducts>
        <TrendingDealsInElectronics></TrendingDealsInElectronics>
-       <TrustedBrand></TrustedBrand>
-       <BesnessPattner></BesnessPattner>
+      
+<Trustedsmss></Trustedsmss>
+      
+  
+       <Servicses></Servicses>
 
 
             

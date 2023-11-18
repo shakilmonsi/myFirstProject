@@ -1,0 +1,17 @@
+.grit_trusd_item {
+        grid-template-columns: repeat(9, 1fr);
+
+}
+
+.trusted_card_body {
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
+        width: 191px;
+height: 112px;
+flex-shrink: 0;
+
+}
+.Paidng_item{
+        padding: 40px;
+}
