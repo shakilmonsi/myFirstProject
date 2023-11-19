@@ -1,34 +1,60 @@
 import React from 'react';
-
+import"./trendingdealsinelectronic.css";
 const TrendingDealsInElectronic = ({ service }) => {
         const { name, description, img, delprice, price } = service;
 
         return (
-                <div className='col-md-3 col-lg-2 col-sm-2 mt-2 '>
-                        <div className="card " style={{ width: "", height: "313px", borderRadius: "10px 10px 10px " }}>
-                                <div className='' style={{ width: '', height: "", backgroundColor: "#F4F4F4" }}>
-                                        <img src={img} style={{ width: '230px', height: "180px" }} className="img-fluid" alt="..." />
-                                </div>
+                <div
+                className=" card   tanding_product_card_setup">
+              
 
-                                <div className="card-body">
-
-                                        <p className="card-text">
-
-                                                {description}
-                                        </p>
-                                        <div className='mb-3  ' style={{ width: "", height: "19px", }}>
-                                                <b className='ms-2' style={{ fontSize: '16px', color: "#2A2A2A" }}
-                                                >BDT {price} </b>
-
-                                                <del className='ms-5 ps-5' style={{ color: "#FF5530" }}>{delprice}</del>
-                                        </div>
-
-                                </div>
-
-                        </div>
-
-
+                {/* style={{boxShadow:"px 10px 10px 10px rgba(0, 0, 0, 0.1)"}} */}
+                <div className="mx-auto mt-2 " style={{ width: "250px", height: "198px", borderRadius: "10px 10px 10px 10px", flexShrink: 0, background: "#F4F4F4" }}>
+                  <img
+                    style={{ width: "auto", height: "auto", marginLeft: "60px" }}
+                    src={img}
+                    className="mt-4  "
+                    alt="..."
+                  />
+                  <p
+                    className="position-absolute"
+                    style={{
+      
+                      height: "25px",
+                      borderRadius: "10px",
+                      top: 10,
+                      left: 10,
+                      backgroundColor: "#F85606",
+                      padding: 2,
+                      borderRadius: 20,
+      
+                    }}
+                  >
+                    <span className='' style={{ color: "#FFFFFF", fontSize: "12px",
+                     fontFamily: "inter", fontStyle: "normal" }}> 5% OFF</span>
+                  </p>  
                 </div>
+      
+      
+                <div className="card-body">
+                  <p className="card-title " style={{ color: "#4F4F4F", fontSize: "14px", fontFamily: "normal", lineHeight: "20px", fontWeight: "500" }}>
+                    Direct Sales by Manufactures Warm Imitation far blanket...
+                  </p>
+                  
+               
+                  <div className="ms-2 d-flex justify-content-between " style={{ color: "#2A2A2A", fontSize: "16px", fontFamily: "inter", fontStyle: "normal", fontWeight: 600, lineHeight: "normal" }}>
+                    <h6>BDT {price}</h6>
+                    <p style={{}}>
+                      <del style={{ color: "#FF5530", fontSize: "12px", fontFamily: "inter", 
+                      fontWeight: 600, textDecorationLine: "strikethrough", lineHeight: 'normal' }}>{delprice}</del>
+                    </p>
+                  </div>
+
+
+         
+                </div>
+              </div>
+      
         );
 }
 

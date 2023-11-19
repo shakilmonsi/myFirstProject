@@ -1,0 +1,4 @@
+.grid_followedProduct_item{
+        grid-template-columns: repeat(6,1fr);
+     
+    }

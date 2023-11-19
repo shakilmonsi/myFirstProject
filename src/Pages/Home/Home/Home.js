@@ -9,6 +9,7 @@ import TopDealsOfheWeek from './TopDealsOfheWeek/TopDealsOfheWeek';
 import Servicses from './services/Servicses';
 import Catagrytrowelproducts from './shercomponent/catagrytrowelproducts/Catagrytrowelproducts';
 import Trustedsmss from './TrustedBrand/TrustedBrandss/TrustedBrandss';
+import MadilHeroBannerThard from '../../madilherobannerthard/MadilHeroBannerThard';
 
 const Home = () => {
     return (
@@ -18,11 +19,13 @@ const Home = () => {
      <TopDealsOfheWeek></TopDealsOfheWeek>
 
        <Services></Services>
+       <Trustedsmss></Trustedsmss>
+       <MadilHeroBannerThard></MadilHeroBannerThard>
        <FollowedProducts></FollowedProducts>
        <Catagrytrowelproducts></Catagrytrowelproducts>
        <TrendingDealsInElectronics></TrendingDealsInElectronics>
       
-<Trustedsmss></Trustedsmss>
+
       
   
        <Servicses></Servicses>

@@ -95,7 +95,7 @@ const Catagrytrowelproducts = () => {
 
 
         return (
-                <div className='row mb-2 ms-2 p-' style={{backgroundColor:"#FFFFFF"}}>
+                <div className='row  pading_full_display' style={{backgroundColor:"#FFFFFF"}}>
                         <div className='d-flex catagoraytowel_product' style={{gap:"50px"}}>
                                 
                         {

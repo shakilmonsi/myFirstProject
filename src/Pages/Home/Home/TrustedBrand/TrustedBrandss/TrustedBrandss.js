@@ -62,8 +62,9 @@ const Trustedsmss = () => {
                                 <Link to="/" className='' style={{color:"#000",fontFamily:"inter",fontSize:"18px",fontWeight:500,fontStyle:"normal",lineHeight:"normal"}}>View All</Link>
 
                         </div>
+
                         <div className='row '>
-                                <div className='d-flex grit_trusd_item gap-3 ms-2'>
+                                <div className='d-flex grit_trusd_item gap-3'>
 
 
                                         {
@@ -73,6 +74,7 @@ const Trustedsmss = () => {
                                         }
                                 </div>
                         </div>
+
                 </section>
 
 
