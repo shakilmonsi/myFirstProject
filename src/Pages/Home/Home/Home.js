@@ -11,14 +11,16 @@ import Catagrytrowelproducts from './shercomponent/catagrytrowelproducts/Catagry
 import Trustedsmss from './TrustedBrand/TrustedBrandss/TrustedBrandss';
 import MadilHeroBannerThard from '../../madilherobannerthard/MadilHeroBannerThard';
 import Llllllllllllllllllllllllllllllllllllllllll from './llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll/Llllllllllllllllllllllllllllllllllllllllll';
+import ExptorOurtopHomePromotor from './exploreOutopHomePromotor/ExptorOurtopHomePromotor';
 
 const Home = () => {
     return (
         <div>
      <Heros></Heros>
+     <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
      <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
      <TopDealsOfheWeek></TopDealsOfheWeek>
-    <Llllllllllllllllllllllllllllllllllllllllll></Llllllllllllllllllllllllllllllllllllllllll> 
+    {/* <Llllllllllllllllllllllllllllllllllllllllll></Llllllllllllllllllllllllllllllllllllllllll>  */}
 
        <Services></Services>
        <Trustedsmss></Trustedsmss>

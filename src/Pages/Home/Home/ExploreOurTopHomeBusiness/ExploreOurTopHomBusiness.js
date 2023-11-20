@@ -1,6 +1,6 @@
 import React from 'react';
 import "./xploreOurTopHomeBusiness.css";
-import fluoride from "../../../../assets/ExploreOurTopPromoter/Ellipse 7.png";
+import fluoride from "../../../../assets/ExploreOurTopPromoter/Abu Bakar Siddiq8.jpg";
 import usericon from "../../../../assets/usersicon/user.svg"
 import homeseller from "../../../../assets/homesellericone/home seller.png";
 import starretting from "../../../../assets/iconreting/rating.svg";
@@ -36,13 +36,13 @@ const ExploreOurTopHomBusiness = () => {
 
   return (
     <div >
- 
-      <div className='mt-5  ms-4 "'>
-      <div className='d-flex justify-content-between'>
-        <h4 style={{ color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Trending Deals In Electronics</h4>
-        <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
-      </div>
+      <div className='mt-5  ms-4 "'>
+        <div className='d-flex justify-content-between'>
+          <h4 style={{ color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Explore Our Top Promoter</h4>
+          <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+
+        </div>
         <div className='row '>
           <div className=' d-flex  grid_colams gap-5'>
 
@@ -116,17 +116,6 @@ const ExploreOurTopHomBusiness = () => {
       </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
   );

@@ -5,18 +5,17 @@ import secureShoppingPayment from '../../../../assets/servicesimg/secureShopping
 import unique from '../../../../assets/servicesimg/Unique.svg'
 
 const Servicses = () => {
-        
         return (
                 <div className='row mt-3 max-auto' style={{backgroundColor:"#FFFFFF"}}>
                         <div className='d-flex ms-4  servises_grid_item ' style={{ gap: "90px" }}>
 
-                                <div className='d-flex gap-2' style={{borderRight:"66px" ,height:"66px", color:"#000"}} >
+                                <div className='d-flex gap-2'>
                                         <img src={servicecar} alt='' style={{ color: "#FF5530", width: "57px", height: "28px", flexShrink: 0 }}></img>
                                         <div><h5 style={{ color: '#000000', fontSize: "20px", fontWeight: 700, fontStyle: "normal", fontFamily: "inter" }}>Fast And Free Delivery</h5>
                                                 <p style={{ fontSize: "14px", fontFamily: "inter", fontSizeAdjust: "normal", color: "#2A2A2AE5", fontWeight: 400, lineHeight: "normal" }}>Fastest worldwide shipping</p>
                                         </div>
                                 </div>
-                            
+                                <span className='' style={{ height: "60px", color: "#AFAFAF" }}>||</span>
 
                                 <div className='d-flex gap-2'>
                                         <img src={worldwide} alt='' style={{ width: "37px", height: "40px", flexShrink: 0, color: "#FF5530" }}></img>
