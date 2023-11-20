@@ -9,7 +9,7 @@ const Footer = () => {
         backgroundColor: "#EA4D00"
 
       }}>
-        <div className="container"  >
+       
           <div className=" row  pading_option_setup " >
             <div className="d-flex grid_footer_item">
               <div className='j'>
@@ -123,7 +123,7 @@ const Footer = () => {
 
           </div>
 
-        </div>
+      
       </footer>
       <div className="row">
         <div className="col-lg-12">

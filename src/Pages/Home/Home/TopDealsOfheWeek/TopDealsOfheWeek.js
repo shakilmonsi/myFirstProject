@@ -13,7 +13,7 @@ import thredot from "../../../../assets/thredoticon/thredot.svg"
 
 const TopDealsOfheWeek = () => {
   return (
-    <div>
+    <div className='mt-5'>
       <div className=" gap-3 d-flex">
         {/* card-1 */}
         <div

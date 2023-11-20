@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDiCVT3u0AcxxJ8ou70gSLaiwpbIYmkKlM",
-  authDomain: "hospital-service-usa.firebaseapp.com",
-  projectId: "hospital-service-usa",
-  storageBucket: "hospital-service-usa.appspot.com",
-  messagingSenderId: "718840727658",
-  appId: "1:718840727658:web:f6956317218c5846de6213"
+  apiKey: "AIzaSyDc5QbkCPSAPK7cQbAQuDcavxFLUMIbu8I",
+  authDomain: "bdtaskmsyproject.firebaseapp.com",
+  projectId: "bdtaskmsyproject",
+  storageBucket: "bdtaskmsyproject.appspot.com",
+  messagingSenderId: "299665703937",
+  appId: "1:299665703937:web:050c1f6cb4d761f87dac00"
 };
 
 // Initialize Firebase

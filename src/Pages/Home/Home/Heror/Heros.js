@@ -9,7 +9,8 @@ const Heros = () => {
 
     }}
 
-      className="container "
+   
+  
     >
       <div
         id="carouselExampleControls"

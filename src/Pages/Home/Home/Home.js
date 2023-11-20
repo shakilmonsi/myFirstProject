@@ -10,6 +10,7 @@ import Servicses from './services/Servicses';
 import Catagrytrowelproducts from './shercomponent/catagrytrowelproducts/Catagrytrowelproducts';
 import Trustedsmss from './TrustedBrand/TrustedBrandss/TrustedBrandss';
 import MadilHeroBannerThard from '../../madilherobannerthard/MadilHeroBannerThard';
+import Llllllllllllllllllllllllllllllllllllllllll from './llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll/Llllllllllllllllllllllllllllllllllllllllll';
 
 const Home = () => {
     return (
@@ -17,9 +18,11 @@ const Home = () => {
      <Heros></Heros>
      <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
      <TopDealsOfheWeek></TopDealsOfheWeek>
+    <Llllllllllllllllllllllllllllllllllllllllll></Llllllllllllllllllllllllllllllllllllllllll> 
 
        <Services></Services>
        <Trustedsmss></Trustedsmss>
+       <FollowedProducts></FollowedProducts>
        <MadilHeroBannerThard></MadilHeroBannerThard>
        <FollowedProducts></FollowedProducts>
        <Catagrytrowelproducts></Catagrytrowelproducts>
