@@ -10,21 +10,23 @@ import Servicses from './services/Servicses';
 import Catagrytrowelproducts from './shercomponent/catagrytrowelproducts/Catagrytrowelproducts';
 import Trustedsmss from './TrustedBrand/TrustedBrandss/TrustedBrandss';
 import MadilHeroBannerThard from '../../madilherobannerthard/MadilHeroBannerThard';
-import Llllllllllllllllllllllllllllllllllllllllll from './llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll/Llllllllllllllllllllllllllllllllllllllllll';
 import ExptorOurtopHomePromotor from './exploreOutopHomePromotor/ExptorOurtopHomePromotor';
+import ExploreOuropBusinessSellers from './ExploreOuropBusinessSeller/ExploreOuropBusinessSeller/ExploreOuropBusinessSellers';
 
 const Home = () => {
     return (
         <div>
      <Heros></Heros>
      <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
-     <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
      <TopDealsOfheWeek></TopDealsOfheWeek>
     {/* <Llllllllllllllllllllllllllllllllllllllllll></Llllllllllllllllllllllllllllllllllllllllll>  */}
 
        <Services></Services>
        <Trustedsmss></Trustedsmss>
+       <ExploreOuropBusinessSellers></ExploreOuropBusinessSellers>
        <FollowedProducts></FollowedProducts>
+       <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
+
        <MadilHeroBannerThard></MadilHeroBannerThard>
        <FollowedProducts></FollowedProducts>
        <Catagrytrowelproducts></Catagrytrowelproducts>
