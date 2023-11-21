@@ -4,6 +4,8 @@ import fluoride from "../../../assets/FollowedProduct/pngwing 62.png";
 import fluoride2 from "../../../assets/FollowedProduct/pngwing 63.png";
 import fluoride3 from "../../../assets/FollowedProduct/pngwing 65.png";
 import fluoride4 from "../../../assets/FollowedProduct/pngwing 68.png";
+
+// oprer  data golo product  img 
 import reding from "../../../assets/iconreting/rating.svg";
 import widthreding from "../../../assets/iconreting/withcolerrating.svg";
 import hardicon from "../../../assets/hardicons/hardicon.svg";

@@ -12,15 +12,17 @@ import Trustedsmss from './TrustedBrand/TrustedBrandss/TrustedBrandss';
 import MadilHeroBannerThard from '../../madilherobannerthard/MadilHeroBannerThard';
 import ExptorOurtopHomePromotor from './exploreOutopHomePromotor/ExptorOurtopHomePromotor';
 import ExploreOuropBusinessSellers from './ExploreOuropBusinessSeller/ExploreOuropBusinessSeller/ExploreOuropBusinessSellers';
+import SpecialSaleOffers from './SpecialSaleOffer/SpecialSaleOffers/SpecialSaleOffers';
+import NewArivalsBanner from './NewArrivalsBanner/NewArivalsBanner';
 
 const Home = () => {
     return (
         <div>
      <Heros></Heros>
      <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
+     <NewArivalsBanner></NewArivalsBanner>
      <TopDealsOfheWeek></TopDealsOfheWeek>
-    {/* <Llllllllllllllllllllllllllllllllllllllllll></Llllllllllllllllllllllllllllllllllllllllll>  */}
-
+<SpecialSaleOffers></SpecialSaleOffers>
        <Services></Services>
        <Trustedsmss></Trustedsmss>
        <ExploreOuropBusinessSellers></ExploreOuropBusinessSellers>
