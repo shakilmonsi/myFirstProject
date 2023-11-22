@@ -89,27 +89,28 @@ const Catagrytrowelproducts = () => {
 
                 },
 
+
         ]
 
 
 
 
         return (
-                <div className='row  pading_full_display' style={{backgroundColor:"#FFFFFF"}}>
-                        <div className='d-flex catagoraytowel_product' style={{gap:"50px"}}>
-                                
-                        {
-                                catagrytrowelproducts?.map(catagrytrowelproduct => <div className='' key={catagrytrowelproduct.id}>
-                                     <div className='' style={{backgroundColor:"#F4F4F4",borderRadius:"100%", width:"80px",height:"80px",flexShrink:0}}>
+                <div className='row  pading_full_display' style={{ backgroundColor: "#FFFFFF" }}>
+                        <div className='d-flex catagoraytowel_product' style={{ gap: "50px" }}>
 
-                                     <img className='' style={{margin:"12px",height:"auto",width:"auto"}} src={catagrytrowelproduct.catagryimg} ></img>
+                                {
+                                        catagrytrowelproducts?.map(catagrytrowelproduct => <div className='' key={catagrytrowelproduct.id}>
+                                                <div className='' style={{ backgroundColor: "#F4F4F4", borderRadius: "100%", width: "80px", height: "80px", flexShrink: 0 }}>
 
-                                     </div>
+                                                        <img className='' style={{ margin: "12px", height: "auto", width: "auto" }} src={catagrytrowelproduct.catagryimg} ></img>
 
-                                                <h6 className='mt-3 mx-auto' style={{color:"#000000",fontSize:"16px",fontFamily:"inter",fontStyle:"normal",lineHeight:"normal" ,fontWeight:500}}>{catagrytrowelproduct.name}</h6>
-                                        
-                                </div>)
-                        }
+                                                </div>
+
+                                                <h6 className='mt-3 mx-auto' style={{ color: "#000000", fontSize: "16px", fontFamily: "inter", fontStyle: "normal", lineHeight: "normal", fontWeight: 500 }}>{catagrytrowelproduct.name}</h6>
+
+                                        </div>)
+                                }
                         </div>
 
 

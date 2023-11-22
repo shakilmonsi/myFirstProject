@@ -14,13 +14,18 @@ import ExptorOurtopHomePromotor from './exploreOutopHomePromotor/ExptorOurtopHom
 import ExploreOuropBusinessSellers from './ExploreOuropBusinessSeller/ExploreOuropBusinessSeller/ExploreOuropBusinessSellers';
 import SpecialSaleOffers from './SpecialSaleOffer/SpecialSaleOffers/SpecialSaleOffers';
 import NewArivalsBanner from './NewArrivalsBanner/NewArivalsBanner';
+import DealsYouMighLikeWeeklyOffers from './DealsYouMighLikeWeeklyOffers/DealsYouMighLikeWeeklyOffer/DealsYouMighLikeWeeklyOffers';
+import FlashSales from './FlashSale/FlashSale/FlashSales/FlashSales';
 
 const Home = () => {
     return (
         <div>
      <Heros></Heros>
      <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
+     <FlashSales></FlashSales>
+     <DealsYouMighLikeWeeklyOffers></DealsYouMighLikeWeeklyOffers>
      <NewArivalsBanner></NewArivalsBanner>
+
      <TopDealsOfheWeek></TopDealsOfheWeek>
 <SpecialSaleOffers></SpecialSaleOffers>
        <Services></Services>
