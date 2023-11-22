@@ -23,6 +23,7 @@ const FlashSales = () => {
                         img: deko,
                         price: 8750.00,
                         delprice: 3910.00,
+                        offer:"50% off"
 
                 },
                 {
@@ -32,6 +33,7 @@ const FlashSales = () => {
                         img: tata,
                         price: 8750.00,
                         delprice: 3910.00,
+                        offer:"Best Seller"
                 },
                 {
                         id: 3,
@@ -41,6 +43,8 @@ const FlashSales = () => {
                         img: fationshop3,
                         price: "BDT 8750.00",
                         delprice: 3310.00,
+                        offer:"50% off"
+
                 },
                 {
                         id: 4,
@@ -49,6 +53,7 @@ const FlashSales = () => {
                         img: under4,
                         price: 8750.00,
                         delprice: 3910.00,
+                        offer:"Best Seller"
                 },
                 {
                         id: 5,
@@ -58,6 +63,7 @@ const FlashSales = () => {
                         img: marder5,
                         price: "BDT 8750.00",
                         delprice: 3310.00,
+                        offer:"50% off"
                 },
                 {
                         id: 6,
@@ -67,36 +73,100 @@ const FlashSales = () => {
                         img: jori6,
                         price: "BDT 8750.00",
                         delprice: 3310.00,
+                        offer:"50% off"
                 },
 
-        ]
+        ];
+//   need a timig  dinymik  kore  timing korte  nicer   timingData   API ti  use korte paren
+
+        //  const  timingData =[
+        //         {
+        //           id:1,
+        //           timenumber:10,
+        //           timeNme:"Days",
+
+        //         },
+        //         {
+        //           id:1,
+        //           timenumber:15,
+        //           timeNme:"Hours",
+
+        //         },
+        //         {
+        //           id:1,
+        //           timenumber:21,
+        //           timeNme:"Min",
+
+        //         },
+        //         {
+        //           id:1,
+        //           timenumber:45,
+        //           timeNme:"Sec",
+
+        //         },
+        //  ]
 
         return (
-                <section className='mt-4'>
+                <section className='mt-4 ' style={{background: "#F5F7FB", padding:"30px"}}>
 
 
                         <div className='d-flex justify-content-between'>
                                  
                                  <div className='d-flex gap-4'>
-                                <div  className='d-flex gap-1'>
-                                        <div className='d-flex ms-4'>
+
+                                <div  className='d-flex gap-2'>
+
+                                        {/* flashlogo setup  */}
+                                        <div className='d-flex ms-4 '>
                                         <img src={flashsalelogo} alt='' style={{width:"26px", height:"45px", flexShrink:0, color:"#F85606"}}></img>
-                                        <h6 className='plashsale_text_style_setup'>Flash Sale</h6>
+                                        <h6 className='plashsale_text_style_setup'>Flash 𝒮ale</h6>
                                         </div>
-                                        <div className='d-flex'>
-                                                <h3>10 <br></br><span>Days</span> </h3>: 
-                                                <h3>15 <br></br><span>Hours</span> </h3>:   
-                                                <h3>21 <br></br><span>Min</span> </h3>:   
-                                                <h3>45 <br></br><span>Sec</span> </h3>       
+
+                                          {/* timing  setup  */}
+                                        <div className='d-flex gap-2 ' style={{marginTop:-18,color:""}}>
+
+
+                                          <div  className='plashsale_days_in_src_text_style'>
+                                                         <h6 className='m-2   ms-3'><span className='text_code_number ' 
+                                                >10</span> <br></br><span  className='text_titele_style_dignit_text' 
+                                                >Days</span> </h6>
+
+                                               </div><h5 className='mt-3 colon_style'>:</h5>
+                                          <div  className='plashsale_days_in_src_text_style'>
+                                                         <h6 className='m-2   ms-3'><span className='text_code_number ' 
+                                                >15</span> <br></br><span  className='text_titele_style_dignit_text' 
+                                                >Hours</span> </h6>
+
+                                               </div><h5 className='mt-3  colon_style'>:</h5>
+                                          <div  className='plashsale_days_in_src_text_style'>
+                                                         <h6 className='m-2   ms-3'><span className='text_code_number ' 
+                                                >21</span> <br></br><span  className='text_titele_style_dignit_text' 
+                                                >Min</span> </h6>
+
+                                               </div><h5 className='mt-3  colon_style'>:</h5>
+                                          <div  className='plashsale_days_in_src_text_style'>
+                                                         <h6 className='m-2   ms-3'><span className='text_code_number ' 
+                                                >45</span> <br></br><span  className='text_titele_style_dignit_text' 
+                                                >Sec</span> </h6>
+
+                                               </div>
+
+
                                                 </div>    
+                             
+                             
+                             
+                             
                                 </div>
                                
 
-                                <div>
-                                <h4 style={{
-                                        color: "#000", fontSize: "22px", fontFamily: "inter",
-                                        fontWeight: 500, lineHeight: "normal"
-                                }}>Weekly Offer</h4> 
+
+                                <div className='d-flex ' style={{gap:"40px",  marginLeft:185}}>
+                                        <Link to="/" className='electronics_text_style'> Electronics</Link>
+                                        <Link to="/" className='colthing_sports_tous_text_style'> Clothing’s</Link>
+                                        <Link to="/" className='colthing_sports_tous_text_style'> Sports</Link>
+                                        <Link to="/" className='colthing_sports_tous_text_style'> Toys</Link>
+                       
                                 </div>
 
                                  </div>
@@ -107,8 +177,9 @@ const FlashSales = () => {
                           
 
 
+
                         </div>
-                        <div className='row'>
+                        <div className='row mt-3'>
                         <div className='d-flex gap-4 '>
                         {
         flashsalesData.map(servic => <FlashsaleCard

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FlashsaleCard=({service})=> {
-        const { name, description, img, delprice, price } = service;
+        const { name, description, img, delprice, price ,offer} = service;
 
         return (
                 <div
@@ -32,7 +32,7 @@ const FlashsaleCard=({service})=> {
                     }}
                   >
                     <span className='' style={{ color: "#FFFFFF", fontSize: "12px",
-                     fontFamily: "inter", fontStyle: "normal" }}> 5% OFF</span>
+                     fontFamily: "inter", fontStyle: "normal" }}> {offer}</span>
                   </p>  
                 </div>
       
